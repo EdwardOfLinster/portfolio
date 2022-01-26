@@ -1,0 +1,49 @@
+.project-banner {
+  position: relative;
+}
+
+.project-banner img {
+  width: 100%;
+}
+
+.project-banner .project-anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-info h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.project-info .project-title {
+  margin-bottom: 10px;
+}
+
+.project-info .project-title h3 {
+  font-size: 20px;
+  color: #808080;
+}
+
+.project-info .project-title h2 {
+  font-size: 25px;
+}
+
+.project-info .project-overview {
+  margin-bottom: 10px;
+}
+
+.project-info .detail-item {
+  margin-bottom: 10px;
+}
+
+.project-info a {
+  font-size: 20px;
+  padding: 12px 15px;
+  display: inline-block;
+}
+/*# sourceMappingURL=project-page.css.map */

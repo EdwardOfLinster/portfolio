@@ -1,0 +1,28 @@
+.hero-banner{
+    background-image: url("../img/hero-banner.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    // height: 90vh;
+    min-height: 500px;
+    margin-top: 100px;
+    h1{
+        font-size: 45px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    a{
+        font-size: 30px;
+        padding: 10px 15px;
+        border-radius: 15px;
+        text-decoration: none;
+        background-color: $blue;
+        margin-top: 10px;
+        color: white;
+    }
+}

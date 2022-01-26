@@ -1,0 +1,37 @@
+.main-footer{
+    background: url("../img/footer-bg.svg");
+    background-size: cover;
+    background-position: center bottom;
+    color: #fff;
+    padding: 10px;
+    h3{
+        font-size: 22px;
+        text-align: center;
+        line-height: 1.1;
+
+    }
+    p{
+        font-size: 15px;
+        text-align: center;
+        margin: 10px 0;
+        line-height: 1.1;
+    }
+    .footer-icons{
+        display: flex;
+        justify-content: center;
+        a{
+            font-size: 20px;
+            color: white;
+            margin: 0 10px;
+        }
+        .bi{
+            font-size: 35px;
+            color: goldenrod;
+        }
+    }
+    .copy{
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,MAFE,CAEF,CAAC,CAAA;EACG,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CACtB;;AAPL,AAQI,MARE,CAQF,GAAG,CAAA;EACC,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "taffy.scss"
+    ],
+    "names": [],
+    "file": "taffy.css"
+}

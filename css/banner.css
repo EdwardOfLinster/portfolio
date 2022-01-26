@@ -1,0 +1,33 @@
+.hero-banner {
+  background-image: url("../img/hero-banner.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+}
+
+.hero-banner h1 {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.hero-banner a {
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=banner.css.map */

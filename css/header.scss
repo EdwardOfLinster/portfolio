@@ -1,0 +1,128 @@
+.main-header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    .header-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        height: $header-height;
+        z-index: 5;
+        background-color: $grey;
+
+    }
+    .main-logo{
+        height: 60px;
+        z-index: 5;
+    }
+    .nav-trg{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        .line1{
+            width: 100%;
+            height: 7px;
+            background-color: black;
+            content: "";
+            position: absolute;
+            transform: translateY(-15px);
+            transition: transform 300ms;
+        }
+        .line2{
+            width: 100%;
+            height: 7px;
+            content: "";
+            background-color: black;
+            position: absolute;
+            opacity: 1;
+            transition: transform 200ms,opacity 400ms;
+
+        }
+        .line3{
+            width: 100%;
+            height: 7px;
+            content: "";
+            background-color: black;
+            position: absolute;
+            transform: translateY(15px);
+            transition: transform 300ms;
+
+        }
+    }
+    .nav-trg.open{
+        .line1{
+            transform: translateY(0) rotate(45deg);
+        }
+        .line2{
+            transform: translateX(50px);
+            opacity: 0;
+        }
+        .line3{
+            transform: translateY(0) rotate(-45deg);
+        }
+    }
+    
+
+    .gb-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 100vw;
+        transition: all 500ms;
+        padding: 0 5%;
+        z-index: 1;
+        background-color: $grey;
+
+        .anchor-links{
+            padding: 5px 0;
+            border-bottom: 2px solid $blue;
+            width: 100%;
+            a{
+                font-size: 35px;
+                color: #000;
+                padding: 10px 0;
+                display: block;
+                text-align: center;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+        .social-links{
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            a{
+                font-size: 40px;
+                color: #000;
+                padding: 0 10px;
+            }
+        }
+        h2{
+            font-size: 60px;
+            margin-top: 50px;
+            text-align: center;
+            font-weight: 800;
+        }
+    }
+    .gb-nav.open{
+        width: 100%;
+        left: 0;
+        background-color: $grey;
+        z-index: 1;
+
+        
+
+    }
+}

@@ -1,0 +1,19 @@
+.education .education-item {
+  border-bottom: 4px dotted #1a2e4a;
+  padding: 0px 0 20px;
+  margin: 20px 0;
+}
+
+.education .education-item .school {
+  font-size: 20px;
+}
+
+.education .education-item .program {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.education .education-item .year {
+  font-size: 16px;
+}
+/*# sourceMappingURL=education.css.map */

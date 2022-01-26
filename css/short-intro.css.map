@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,YADQ,CACR,GAAG,CAAA;EACC,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,GAAG;EAClB,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,WAAW;EACnB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "short-intro.scss"
+    ],
+    "names": [],
+    "file": "short-intro.css"
+}
